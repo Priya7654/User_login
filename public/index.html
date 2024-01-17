@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon-16x16.png" />
+  
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+   
+    <title>VIDOE - Video Streaming Website HTML Template</title>
+     <link rel="icon" type="image/png" href="img/favicon.png">
+  
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  
+    <link href="css/osahan.css" rel="stylesheet">
+  
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.theme.css">
+
+  
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+     <div id="root"></div>
+    
+     <script>
+      $(document).ready(function () {
+        $('.owl-carousel').owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          responsive: {
+            0: { items: 1 },
+            600: { items: 3 },
+            1000: { items: 5 }
+          }
+        });
+      });
+    </script>
+    <!-- jQuery (load this before Bootstrap) -->
+<script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+
+<!-- Owl Carousel JS (include it after jQuery and Bootstrap) -->
+<script src="vendor/owl-carousel/owl.carousel.js"></script>
+
+<!-- Your custom JS (if any) -->
+<script src="js/custom.js"></script>
+
+ 
+      </body>
+</html>
